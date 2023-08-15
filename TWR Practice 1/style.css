@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+.rectangle {
+  width: 100%;
+  height: 250px;
+  background-color: #67c4ec;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rectangle h1 {
+  color: #055ea4;
+  font-size: 3em;
+  text-align: center;
+}
+
+/* Style the tab buttons */
+.tablink {
+  background-color: #67c4ec;
+  color: #055ea4;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-family: "Raleway", sans-serif;
+  font-size: 17px;
+  width: 25%;
+}
+
+/* Change background color of buttons on hover */
+.tablink:hover {
+  background-color: #ffffff;
+}
+
+/* Set default styles for tab content */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 50px;
+  text-align: center;
+}
+h2 {
+  color: #ffffff;
+  font-size: 1em;
+  font-family: "Raleway", sans-serif;
+}
+.rectangle2 {
+  height: 300px;
+  width: 400px;
+  background-color: #d70bae;
+}
